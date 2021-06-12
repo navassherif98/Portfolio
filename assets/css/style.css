@@ -621,6 +621,13 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 640px){
+	#badge{
+		margin-left: -40px;
+	}
+}
+
+
 /* 07. SKILLS
 =================================================*/
 
