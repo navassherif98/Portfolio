@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: navas-portfolio.herokuapp.com
+Token: c119897442c16278f69eaad8dfd1044f30e245e014decb57ee13974a3fd178c5
