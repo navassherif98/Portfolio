@@ -8,6 +8,7 @@ $(document).ready(function() {
       gallery:{
         enabled:true
       },
+      
       zoom: {
         enabled: true, // By default it's false, so don't forget to enable it
 

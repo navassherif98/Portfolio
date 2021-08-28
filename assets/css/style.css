@@ -556,7 +556,8 @@ body {
 
 .description {
 	max-width: 100%;
-	width: 42em;
+	width: 41em;
+	margin-bottom: -10px;
 }
 
 .description p {
@@ -682,8 +683,101 @@ body {
 }
 
 
-/* 08. PORTFOLIO
+/* 08. PROJECT
 =================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#portfolio {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f7f8fc;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+}
+#portfolio h4{
+	margin-top: 10px;
+	text-align: start;
+}
+#portfolio .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 1070;
+}
+#portfolio .card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 340px;
+}
+#portfolio .card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+#portfolio .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  
+}
+#space{
+	margin-right: 0.9%;
+}
+#portfolio .tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#portfolio .tag-teal {
+  background-color: #47bcd4;
+}
+#portfolio .tag-purple {
+  background-color: #f3b530;
+}
+#portfolio .tag-pink {
+  background-color: #cd5b9f;
+}
+
+#portfolio .card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+#portfolio .user {
+  display: flex;
+  margin-top: auto;
+}
+
+#portfolio .user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+#portfolio .user-info h5 {
+  margin: 0;
+}
+#portfolio .user-info small {
+  color: #545d7a;
+}
+
+/* .project_title{
+	font-family:cursive;
+	
+} */
+
 #portfolio {
 	padding: 90px 0 80px;
 	background: #fff;
@@ -886,6 +980,26 @@ body {
 
 /* 12. CERTIFICATES
 =================================================*/
+
+.svg {
+	position: fixed;
+	background: transparent;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	z-index: 10000;
+	
+}
+
+.hide {
+    display: none;
+}
 
 #certificates{
 	padding-top: 65px;
